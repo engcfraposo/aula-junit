@@ -59,7 +59,6 @@ public class AccountTests {
 
 		double withInitialBalance = 800.0;
 		double amount = 801.0;
-		
 
 		Assertions.assertThrows(IllegalArgumentException.class, () -> {
 			Account acc = AccountFactory.createAccount(withInitialBalance);
